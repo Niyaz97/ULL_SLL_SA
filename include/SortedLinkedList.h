@@ -1,8 +1,0 @@
-//
-// Created by niyaz on 18.11.17.
-//
-
-#ifndef ULL_SLL_SA_SORTEDLINKEDLIST_H
-#define ULL_SLL_SA_SORTEDLINKEDLIST_H
-
-#endif //ULL_SLL_SA_SORTEDLINKEDLIST_H

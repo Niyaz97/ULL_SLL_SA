@@ -1,7 +1,11 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 2.8.7)
+
 project(ULL_SLL_SA)
 
 set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES examples/main.cpp include/UnrolledLinkedList.h sources/UnrolledLinkedList.cpp include/SortedLinkedList.h sources/SortedLinkedList.cpp include/SortedArray.h sources/SortedArray.cpp)
-add_executable(ULL_SLL_SA ${SOURCE_FILES})
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/)
+
+add_executable(Examples ${CMAKE_CURRENT_SOURCE_DIR}/examples/main.cpp include/Exception.h)

@@ -9,8 +9,8 @@ class list{
 public:
     list();
     ~list();
-    auto push(int key, int data) -> void;
-    auto pop(int key) -> void;
+    auto insert(int key, int data) -> void;
+    auto remove(int key) -> void;
     auto print() -> void;
     auto search(int key) -> int;
     auto findmin() -> int;
@@ -48,7 +48,7 @@ list::~list(){
     }
 }
 
-auto list::push(int key, int data) -> void{
+auto list::insert(int key, int data) -> void{
 
     node* n = new node;
     n -> address = key;
@@ -76,7 +76,7 @@ auto list::push(int key, int data) -> void{
     }
 }
 
-auto list::pop(int key) -> void{
+auto list::remove(int key) -> void{
 
     node* n = NULL;
     temp = head;
@@ -99,11 +99,11 @@ auto list::pop(int key) -> void{
 
 auto list::print() -> void{
     node* n = head;
-    while(n != NULL){
+    while(n != tail){
         std::cout << n -> address << "-->";
         n = n -> next;
     }
-    std::cout << std::endl;
+    std::cout << n -> address << std::endl;
 
     n = head;
     while(n != NULL){
@@ -112,6 +112,7 @@ auto list::print() -> void{
     }
     std::cout << std::endl;
 }
+
 auto list::search(int key) -> int{
     node* n = head;
     while(n -> address != key){

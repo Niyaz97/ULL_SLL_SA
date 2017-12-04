@@ -1,14 +1,13 @@
 #ifndef ULL_SLL_SA_SORTEDLINKEDLIST_HPP
 #define ULL_SLL_SA_SORTEDLINKEDLIST_HPP
-
-
 #include <iostream>
 
 
-class list{
+
+class sortedlist{
 public:
-    list();
-    ~list();
+    sortedlist();
+    ~sortedlist();
     auto insert(int key, int data) -> void;
     auto remove(int key) -> void;
     auto print() -> void;
@@ -18,8 +17,8 @@ public:
 
 private:
     struct node{
-        int address;
-        int data;
+        int   address;
+        int   data;
         node* next;
     };
 
@@ -29,18 +28,13 @@ private:
     node* tail;
 };
 
-list::list(){
-    head = NULL;
-    curr = NULL;
-    temp = NULL;
-    tail = NULL;
+sortedlist::sortedlist(): head(nullptr), curr(nullptr), temp(nullptr), tail(nullptr){
 }
 
-list::~list(){
-
-    if(head != NULL){
+sortedlist::~sortedlist(){
+    if(head != nullptr){
         node* curr = head;
-        while(curr -> next != NULL){
+        while(curr -> next != nullptr){
             curr = curr -> next;
             delete head;
             head = curr;
@@ -48,15 +42,14 @@ list::~list(){
     }
 }
 
-auto list::insert(int key, int data) -> void{
-
+auto sortedlist::insert(int key, int data) -> void{
     node* n = new node;
     n -> address = key;
     n -> data = data;
 
-    if (head == NULL){
+    if (head == nullptr){
         head = tail = n;
-        n -> next = NULL;
+        n -> next = nullptr;
     }
     else{
         if (n -> address <= head -> address){
@@ -65,7 +58,7 @@ auto list::insert(int key, int data) -> void{
         }
         else{
             curr = head;
-            while (curr != NULL && curr -> address < n -> address){
+            while (curr != nullptr && curr -> address < n -> address){
                 temp = curr;
                 curr = curr -> next;
             }
@@ -74,19 +67,19 @@ auto list::insert(int key, int data) -> void{
             n -> next = curr;
         }
     }
+    std::cout << "Key and data were inserted successfully" << std::endl;
 }
 
-auto list::remove(int key) -> void{
-
-    node* n = NULL;
+auto sortedlist::remove(int key) -> void{
+    node* n = nullptr;
     temp = head;
     curr = head;
 
-    while (curr != NULL && curr -> address != key){
+    while (curr != nullptr && curr -> address != key){
         temp = curr;
         curr = curr -> next;
     }
-    if (curr != NULL){
+    if (curr != nullptr){
         n = curr;
         curr = curr -> next;
         temp -> next = curr;
@@ -95,40 +88,37 @@ auto list::remove(int key) -> void{
         head = head -> next;
     }
     delete n;
+    std::cout << "Key and data were deleted successfully" << std::endl;
 }
 
-auto list::print() -> void{
+auto sortedlist::print() -> void{
     node* n = head;
     while(n != tail){
-        std::cout << n -> address << "-->";
+        std::cout << "(" << n -> address << ", " << n -> data << ") --> ";
         n = n -> next;
     }
-    std::cout << n -> address << std::endl;
-
-    n = head;
-    while(n != NULL){
-        std::cout << n -> data << "\t";
-        n = n -> next;
-    }
-    std::cout << std::endl;
+    std::cout << "(" << n -> address << ", " << n -> data << ")" << std::endl;
 }
 
-auto list::search(int key) -> int{
+auto sortedlist::search(int key) -> int{
     node* n = head;
     while(n -> address != key){
         n = n -> next;
     }
-    std::cout << n -> address << std::endl << n -> data;
+    std::cout << "Searched key: "<< n -> address << ", data for this key: " << n -> data << std::endl;
     return n -> address;
 };
 
-auto list::findmin() -> int{
+auto sortedlist::findmin() -> int{
     node* n = head;
+    n -> address;
+    std::cout << "Minimum key: " << n -> address << ", data for this key: " << n -> data << std::endl;
     return n -> address;
 }
 
-auto list::findmax() -> int{
+auto sortedlist::findmax() -> int{
     node* n = tail;
+    std::cout << "Maximum key: " << n -> address << ", data for this key: " << n -> data << std::endl;
     return n -> address;
 }
 

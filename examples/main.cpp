@@ -86,6 +86,8 @@ void sll(){
 }
 
 
+
+
 int main() {
         try {
 //            int* a;
@@ -132,6 +134,24 @@ int main() {
 
 
     sll();
+
+                sortedlist l;
+                l.insert(4, 612);
+                l.insert(1, 13);
+                l.insert(2, 30);
+                l.insert(-10, 12);
+                l.print();
+
+                l.remove(2);
+                l.insert(321, 612);
+                l.insert(23412, 4232);
+                l.print();
+                l.remove(321);
+//                l.search(10);
+                l.findmin();
+                l.findmax();
+//    sll();
+
 //            SortedArrays s;
 //            s.insert(5131);
 //            s.insert(21);
@@ -151,4 +171,6 @@ int main() {
         }  catch (std::logic_error& e) {
                 std::cerr << e.what() << std::endl;
         }
+
 }
+

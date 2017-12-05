@@ -2,8 +2,6 @@
 #include "catch.hpp"
 
 
-
-
 SCENARIO("search an element in sorted linked list")
 {
     GIVEN("sorted linked list")
@@ -36,7 +34,7 @@ SCENARIO("search an element in empty sorted linked list")
         {
             THEN("an exception must be thrown")
             {
-                REQUIRE_THROWS_AS(s.search(324), std::logic_error &);
+                REQUIRE_THROWS_AS(s.search(324), std::logic_error);
             }
         }
     }

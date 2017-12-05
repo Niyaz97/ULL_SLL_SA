@@ -1,21 +1,10 @@
-cmake_minimum_required(VERSION 2.8.7)
-
+cmake_minimum_required(VERSION 3.8)
 project(ULL_SLL_SA)
 
 set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-
-option(BUILD_TESTS "Build tests for ull_sll_sa" ON)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/)
 
-add_executable(Examples ${CMAKE_CURRENT_SOURCE_DIR}/examples/main.cpp)
-
-
-if(BUILD_TESTS)
-    enable_testing()
-    file(GLOB ${PROJECT_NAME}_TEST_SOURCES tests/*.cpp)
-    add_executable(Tests ${${PROJECT_NAME}_TEST_SOURCES})
-    add_test(NAME Tests COMMAND check "-s" "-r" "compact" "--use-colour" "yes")
-endif()
+set(SOURCE_FILES include/SortedLinkedList.hpp sources/SortedLinkedList.cpp)
+add_executable(Examples ${SOURCE_FILES} examples/main.cpp)
+add_executable(Tests ${SOURCE_FILES} tests/catch.hpp tests/main.cpp tests/sll_remove.cpp tests/sll_insert.cpp tests/sll_search.cpp)

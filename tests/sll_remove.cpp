@@ -35,7 +35,7 @@ SCENARIO("sorted linked list is empty => remove method throws an exception")
         {
             THEN("an exception must be thrown")
             {
-                REQUIRE_THROWS_AS(s.remove(324), std::logic_error &);
+                REQUIRE_THROWS_AS(s.remove(324), std::logic_error);
             }
         }
     }
@@ -55,7 +55,7 @@ SCENARIO("removing elemnt doesn't exist => remove method throws an exception")
         {
             THEN("an exception must be thrown")
             {
-                REQUIRE_THROWS_AS(s.remove(324), std::logic_error &);
+                REQUIRE_THROWS_AS(s.remove(324), std::logic_error);
             }
         }
     }

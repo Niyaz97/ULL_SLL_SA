@@ -1,5 +1,6 @@
-#include "catch.hpp"
 #include <SortedLinkedList.hpp>
+#include "catch.hpp"
+
 
 
 

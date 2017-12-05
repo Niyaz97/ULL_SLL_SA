@@ -1,5 +1,6 @@
-#include "catch.hpp"
 #include <SortedLinkedList.hpp>
+#include "catch.hpp"
+
 
 SCENARIO("inserting an element => count of elements increases by the number of insertions")
 {

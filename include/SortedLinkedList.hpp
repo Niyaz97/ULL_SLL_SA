@@ -15,6 +15,8 @@ public:
     auto findmin() -> int;
     auto findmax() -> int;
 
+    auto count() -> size_t;
+
 private:
     struct node{
         int   address;
@@ -23,22 +25,20 @@ private:
     };
 
     node* head;
-    node* curr;
-    node* temp;
     node* tail;
+
+    size_t count_; //счетчик количества элементов в списке
 };
 
-sortedlist::sortedlist(): head(nullptr), curr(nullptr), temp(nullptr), tail(nullptr){
+sortedlist::sortedlist(): head(NULL), tail(NULL), count_(0){
 }
 
 sortedlist::~sortedlist(){
-    if(head != nullptr){
-        node* curr = head;
-        while(curr -> next != nullptr){
-            curr = curr -> next;
-            delete head;
-            head = curr;
-        }
+    node* curr = head;
+    while(head != NULL){
+        curr = head -> next;
+        delete head->next;
+        head = curr;
     }
 }
 
@@ -47,9 +47,9 @@ auto sortedlist::insert(int key, int data) -> void{
     n -> address = key;
     n -> data = data;
 
-    if (head == nullptr){
+    if (head == NULL){
         head = tail = n;
-        n -> next = nullptr;
+        n -> next = NULL;
     }
     else{
         if (n -> address <= head -> address){
@@ -57,8 +57,9 @@ auto sortedlist::insert(int key, int data) -> void{
             head = n;
         }
         else{
-            curr = head;
-            while (curr != nullptr && curr -> address < n -> address){
+            node* curr = head;
+            node* temp;
+            while (curr != NULL && curr -> address < n -> address){
                 temp = curr;
                 curr = curr -> next;
             }
@@ -68,27 +69,40 @@ auto sortedlist::insert(int key, int data) -> void{
         }
     }
     std::cout << "Key and data were inserted successfully" << std::endl;
+    ++count_;
 }
 
 auto sortedlist::remove(int key) -> void{
-    node* n = nullptr;
-    temp = head;
-    curr = head;
+    if(count_ == 0){
+        throw std::logic_error("Sorted linked list is empty");
+    }
 
-    while (curr != nullptr && curr -> address != key){
-        temp = curr;
-        curr = curr -> next;
+    else{
+        node* n = NULL;
+        node* temp = head;
+        node* curr = head;
+
+        while (curr != NULL && curr->address != key) {
+            temp = curr;
+            curr = curr->next;
+            if(!curr){
+                delete n;
+                throw std::logic_error("Key wasn't found");
+            }
+        }
+        if (curr != NULL) {
+            n = curr;
+            curr = curr->next;
+            temp->next = curr;
+        }
+        if (n == head) {
+            head = head->next;
+        }
+
+        delete n;
+        std::cout << "Key and data were deleted successfully" << std::endl;
+        --count_;
     }
-    if (curr != nullptr){
-        n = curr;
-        curr = curr -> next;
-        temp -> next = curr;
-    }
-    if (n == head){
-        head = head -> next;
-    }
-    delete n;
-    std::cout << "Key and data were deleted successfully" << std::endl;
 }
 
 auto sortedlist::print() -> void{
@@ -101,9 +115,13 @@ auto sortedlist::print() -> void{
 }
 
 auto sortedlist::search(int key) -> int{
+    if(count_ == 0)
+        throw std::logic_error("sorted linked list is empty");
     node* n = head;
     while(n -> address != key){
         n = n -> next;
+        if(!n)
+            throw std::logic_error("Key wasn't found");
     }
     std::cout << "Searched key: "<< n -> address << ", data for this key: " << n -> data << std::endl;
     return n -> address;
@@ -111,7 +129,6 @@ auto sortedlist::search(int key) -> int{
 
 auto sortedlist::findmin() -> int{
     node* n = head;
-    n -> address;
     std::cout << "Minimum key: " << n -> address << ", data for this key: " << n -> data << std::endl;
     return n -> address;
 }
@@ -122,6 +139,10 @@ auto sortedlist::findmax() -> int{
     return n -> address;
 }
 
+
+auto sortedlist::count() -> size_t{
+    return count_;
+}
 
 
 #endif //ULL_SLL_SA_SORTEDLINKEDLIST_HPP

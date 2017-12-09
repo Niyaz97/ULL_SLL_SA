@@ -18,15 +18,15 @@ public:
 
 private:
     struct node{
-        int   address;
-        int   data;
-        node* next;
+        int   address_;
+        int   data_;
+        node* next_;
     };
 
-    node* head;
-    node* tail;
+    node* head_;
+    node* tail_;
 
-    size_t count_; //счетчик количества элементов в списке
+    size_t count_; // счетчик количества элементов в списке
 };
 
 #endif //ULL_SLL_SA_SORTEDLINKEDLIST_HPP

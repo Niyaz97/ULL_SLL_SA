@@ -5,8 +5,7 @@
 
 class unrolledlist{
 public:
-    explicit unrolledlist();
-    explicit unrolledlist(size_t arr_size);
+    unrolledlist();
     ~unrolledlist();
     auto insert(int key, int data) -> void;
     auto remove(int key) -> void;

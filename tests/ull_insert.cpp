@@ -29,7 +29,7 @@ SCENARIO("inserting an element in unrolled list with user-defined block size => 
 {
     GIVEN("unrolled list with user-defined block size and number of elements")
     {
-        unrolledlist ull(5);
+        unrolledlist ull;
         ull.insert(32,83);
         ull.insert(2, 36);
         ull.insert(-24,12);

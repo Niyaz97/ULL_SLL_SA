@@ -7,7 +7,7 @@
 
 class array{
 public:
-    explicit array(size_t c);
+    array(size_t c);
     ~array();
 
     auto insert(int key, int data, std::function<bool(const int&, const int&)> comparator) -> void;

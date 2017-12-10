@@ -7,12 +7,6 @@ unrolledlist::unrolledlist(): head_(nullptr), tail_(nullptr), count_(0){
     size_ = 3;
 }
 
-unrolledlist::unrolledlist(size_t array_size): head_(nullptr), tail_(nullptr), count_(0){
-    std::function<bool(const int&, const int&)> compare = std::less<int>();
-    comparator = compare;
-    size_ = array_size;
-}
-
 unrolledlist::~unrolledlist() = default;
 
 auto unrolledlist::insert(int key, int data) -> void{
@@ -137,7 +131,7 @@ auto unrolledlist::print() -> void{
 
 auto unrolledlist::findmin() -> int{
     if(!count_)
-        throw std::logic_error("Unrolled list is empty");
+        throw std::logic_error("Unrolled linked list is empty");
 
     std::cout << "Minimum key: " << head_ -> arr_[0].key_ << ", data for this key: " << head_ -> arr_[0].data_ << std::endl;
     return head_ -> arr_[0].key_;
@@ -145,7 +139,7 @@ auto unrolledlist::findmin() -> int{
 
 auto unrolledlist::findmax() -> int{
     if(!count_)
-        throw std::logic_error("Unrolled list is empty");
+        throw std::logic_error("Unrolled linked list is empty");
 
     std::cout << "Maximum key: " << tail_ -> arr_[tail_ -> count_ - 1].key_ << ", data for this key: " << tail_ -> arr_[tail_ -> count_ - 1].data_ << std::endl;
     return tail_ -> arr_[tail_ -> count_ - 1].key_;

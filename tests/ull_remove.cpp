@@ -40,23 +40,3 @@ SCENARIO("unrolled list is empty => remove method throws an exception")
         }
     }
 }
-
-
-SCENARIO("removing an element that doesn't exist => remove method throws an exception")
-{
-    GIVEN("unrolled list")
-    {
-        unrolledlist ull;
-        ull.insert(3,823);
-        ull.insert(-24,-92);
-        ull.insert(30,8);
-        ull.insert(-432,36);
-        WHEN("trying to remove non-existing element")
-        {
-            THEN("an exception must be thrown")
-            {
-                REQUIRE_THROWS_AS(ull.remove(324), std::logic_error);
-            }
-        }
-    }
-}

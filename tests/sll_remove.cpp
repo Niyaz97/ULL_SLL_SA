@@ -42,7 +42,7 @@ SCENARIO("sorted linked list is empty => remove method throws an exception")
 }
 
 
-SCENARIO("removing elemnt doesn't exist => remove method throws an exception")
+SCENARIO("removing element doesn't exist => remove method throws an exception")
 {
     GIVEN("sorted linked list")
     {

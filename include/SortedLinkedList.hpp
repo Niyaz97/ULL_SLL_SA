@@ -21,6 +21,7 @@ private:
         int   address_;
         int   data_;
         node* next_;
+        node* prev_;
     };
 
     node* head_;

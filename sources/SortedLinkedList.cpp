@@ -18,27 +18,43 @@ auto sortedlist::insert(int key, int data) -> void{
     n -> data_= data;
 
     if (head_ == nullptr){
-        head_ = tail_= n;
+        n -> address_ = key;
+        n -> data_= data;
+        head_ = n;
+        tail_ = head_;
         n -> next_ = nullptr;
+        n -> prev_ = nullptr;
     }
     else{
-        if (n -> address_ <= head_ -> address_){
-            n -> next_ = head_;
-            head_ = n;
-        }
-        else{
-            node* curr = head_;
-            node* temp;
-            while (curr != nullptr && curr -> address_ < n -> address_){
-                temp = curr;
-                curr = curr -> next_;
+        if(tail_ != nullptr){
+            if(key > tail_ -> address_){
+                n -> next_ = nullptr;
+                n -> prev_ = tail_;
+                tail_ -> next_ = n;
+                tail_ = n;
+                ++count_;
+                return;
             }
-            temp -> next_ = n;
-            tail_= n;
-            n -> next_ = curr;
+            if(key < head_ -> address_){
+                n -> next_ = head_;
+                n -> prev_ = nullptr;
+                head_ -> prev_ = n;
+                head_ = n;
+                ++count_;
+                return;
+            }
         }
+
+        node* curr = head_ -> next_;
+        while(curr != nullptr && curr -> address_ < key){
+            curr = curr -> next_;
+        }
+        n -> next_ = curr;
+        n -> prev_ = curr -> prev_;
+        if(curr -> prev_ != nullptr)
+            curr -> prev_ -> next_ = n;
+        curr -> prev_ = n;
     }
-//    std::cout << "Key "<< n -> address_ << " and data_"<< n -> data_<<" inserted" << std::endl;
     ++count_;
 }
 
@@ -70,7 +86,6 @@ auto sortedlist::remove(int key) -> void{
         }
 
         delete n;
-//        std::cout << "Key "<< n -> address_ << " and data_"<< n -> data_<<" deleted" << std::endl;
         --count_;
     }
 }

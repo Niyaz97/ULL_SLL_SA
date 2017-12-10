@@ -20,7 +20,6 @@ auto sortedarray::insert(int key, int data) -> void{
         arr_[count_].key_ = key;
         arr_[count_].data_ = data;
         count_++;
-//        std::cout << "Key " << arr_[0].key_ << " and data " << arr_[0].data_ << " inserted" << std::endl;
         return;
     }
 
@@ -35,7 +34,6 @@ auto sortedarray::insert(int key, int data) -> void{
 
     arr_[index].key_ = key;
     arr_[index].data_ = data;
-//    std::cout << "Key " << arr_[index].key_ << " and data " << arr_[index].data_ << " inserted" << std::endl;
     ++count_;
 }
 
@@ -45,7 +43,7 @@ auto sortedarray::remove(int key) -> void{
     }
     size_t index = binarysearch(key);
 
-    for (; index < count_-1;) {
+    for (; index < count_-1; index++) {
         arr_[index].key_ = arr_[index + 1].key_;
         arr_[index].data_ = arr_[index + 1].data_;
     }
@@ -57,7 +55,7 @@ auto sortedarray::print() -> void{
     std::cout << "[ ";
     for(size_t i = 0; i < count_; i++){
         std::cout<< "(" << arr_[i].key_ << ", ";
-        std::cout << arr_[i].data_ << ") ";
+        std::cout << arr_[i].data_ << ") " << std::endl;
     }
     std::cout << "]" << std::endl;
 }
@@ -74,7 +72,7 @@ auto sortedarray::binarysearch(int key) -> size_t {
     while(left < right){
         size_t mid = (right + left) / 2;
         if(arr_[mid].key_ == key) {
-            std::cout << "Searched key: " << arr_[mid].key_ << ", data for this key: "<< arr_[mid].data_ <<std::endl;
+//            std::cout << "Searched key: " << arr_[mid].key_ << ", data for this key: "<< arr_[mid].data_ <<std::endl;
             return mid;
         }
         if(comparator(key, arr_[mid].key_))
@@ -84,7 +82,7 @@ auto sortedarray::binarysearch(int key) -> size_t {
     }
 
     if(arr_[right].key_ == key) {
-        std::cout << "Searched key: " << arr_[right].key_ << ", data for this key: "<< arr_[right].data_ <<std::endl;
+//        std::cout << "Searched key: " << arr_[right].key_ << ", data for this key: "<< arr_[right].data_ <<std::endl;
         return right;
     }
     else

@@ -103,7 +103,6 @@ auto unrolledlist::remove(int key) -> void{
         }
         ptr = ptr -> next_;
     }
-    throw std::logic_error("Key wasn't found");
 }
 
 auto unrolledlist::search(int key) -> int {
@@ -122,7 +121,7 @@ auto unrolledlist::print() -> void{
     auto ptr = head_;
     while(ptr -> next_ != nullptr){
         ptr -> print();
-        std::cout << " --> ";
+        std::cout << " --> " << std::endl;
         ptr = ptr -> next_;
     }
     ptr -> print();

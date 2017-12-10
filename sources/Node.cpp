@@ -35,8 +35,6 @@ auto array::insert(int key, int data, std::function<bool(const int &, const int 
 }
 
 auto array::remove(int key) -> bool{
-    if(!count_)
-        throw std::logic_error("ULL is empty");
     for(int i = 0; i < count_; i++){
         if(arr_[i].key_ == key){
             for(int j = i; j < count_ - 1; j++) {
@@ -53,15 +51,13 @@ auto array::remove(int key) -> bool{
             return true;
         }
     }
-    throw std::logic_error("Key doesn't exist");
+    return false;
 }
 
 auto array::search(int key) -> int{
-    if(!count_)
-        throw std::logic_error("Unrolled list is empty");
     for(size_t i = 0; i < count_; i++){
         if(arr_[i].key_ == key) {
-            std::cout << "Searched key: " << arr_[i].key_ << ", data for this key: "<< arr_[i].data_ <<std::endl;
+//            std::cout << "Searched key: " << arr_[i].key_ << ", data for this key: "<< arr_[i].data_ <<std::endl;
             return arr_[i].key_;
         }
     }

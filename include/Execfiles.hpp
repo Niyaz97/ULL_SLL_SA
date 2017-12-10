@@ -18,6 +18,7 @@ typedef std::chrono::high_resolution_clock::time_point ExecTime;
 
 void sll(int argc, char* argv[]){
     auto add_time = 0, del_time = 0, search_time = 0, min_time = 0, max_time = 0;
+    auto result_time = 0;
     sortedlist list;
     std::string command, key, data;
     bool flag = true;
@@ -87,8 +88,9 @@ void sll(int argc, char* argv[]){
             if (!key.empty()) key.clear();
             if (!data.empty()) data.clear();
             flag = true;
+            result_time += search_time;
         }
-        auto result_time = add_time + del_time + search_time + min_time + max_time;
+
         std::cout << std::endl << "Sorted Linked List: " << result_time << "ns\n";
         fclose(stdout);
 //        fout.close();
@@ -98,6 +100,7 @@ void sll(int argc, char* argv[]){
 
 void sa(int argc, char* argv[]){
     auto add_time = 0, del_time = 0, search_time = 0, min_time = 0, max_time = 0;
+    auto result_time = 0;
     sortedarray sa;
     std::string command, key, data;
     bool flag = true;
@@ -167,8 +170,9 @@ void sa(int argc, char* argv[]){
             if (!key.empty()) key.clear();
             if (!data.empty()) data.clear();
             flag = true;
+            result_time += search_time;
         }
-        auto result_time = add_time + del_time + search_time + min_time + max_time;
+
         std::cout << std::endl << "Sorted Array: " << result_time << "ns\n";
         fclose(stdout);
 //        fout.close();
@@ -179,7 +183,7 @@ void sa(int argc, char* argv[]){
 
 void ull(int argc, char* argv[]){
     auto add_time = 0, del_time = 0, search_time = 0, min_time = 0, max_time = 0;
-
+    auto result_time = 0;
     unrolledlist ull;
     std::string command, key, data;
     bool flag = true;
@@ -249,9 +253,10 @@ void ull(int argc, char* argv[]){
             if (!key.empty()) key.clear();
             if (!data.empty()) data.clear();
             flag = true;
+            result_time += search_time;
         }
-        auto result_time = add_time + del_time + search_time + min_time + max_time;
-        std::cout << std::endl << "Sorted Linked List: " << result_time << "ns\n";
+
+        std::cout << std::endl << "Unrolled Linked List: " << result_time << "ns\n";
         fclose(stdout);
 //        fout.close();
     }

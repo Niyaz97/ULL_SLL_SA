@@ -54,25 +54,24 @@ auto array::remove(int key) -> bool{
     return false;
 }
 
-auto array::search(int key) -> int{
+auto array::search(int key) -> std::pair<int, int>{
     for(size_t i = 0; i < count_; i++){
         if(arr_[i].key_ == key) {
-//            std::cout << "Searched key: " << arr_[i].key_ << ", data for this key: "<< arr_[i].data_ <<std::endl;
-            return arr_[i].key_;
+            return std::make_pair(arr_[i].key_, arr_[i].data_);
         }
     }
     throw std::logic_error("Key wasn't found");
 }
 
-auto array::print() -> void{
-    std::cout << "[ ";
+auto array::print(std::ofstream& fout) -> void{
+    fout << "[ ";
     for(size_t i = 0; i < count_ - 1; i++){
-        std::cout << "(" << arr_[i].key_ << ", ";
-        std::cout << arr_[i].data_ << "); ";
+        fout << "(" << arr_[i].key_ << ", ";
+        fout << arr_[i].data_ << "); ";
     }
-    std::cout << "(" << arr_[count_ - 1].key_ << ", ";
-    std::cout << arr_[count_ - 1].data_ << ") ";
-    std::cout << "]";
+    fout << "(" << arr_[count_ - 1].key_ << ", ";
+    fout << arr_[count_ - 1].data_ << ") ";
+    fout << "]";
 }
 
 auto array::insert_idx(int key, std::function<bool(const int &, const int &)> comparator) -> size_t{

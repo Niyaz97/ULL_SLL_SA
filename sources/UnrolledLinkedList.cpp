@@ -96,7 +96,7 @@ auto unrolledlist::remove(int key) -> void{
     auto ptr = head_;
     while(ptr){
         if(!ptr->comparator(ptr->arr_[ptr -> count_ - 1].key_, key)){
-            if(ptr->remove(key)){
+            if(ptr -> remove(key)){
                 --count_;
                 return;
             }
@@ -105,46 +105,43 @@ auto unrolledlist::remove(int key) -> void{
     }
 }
 
-auto unrolledlist::search(int key) -> int {
+auto unrolledlist::search(int key) -> std::pair<int, int>{
     if(head_ == nullptr)
         throw std::logic_error("Unrolled linked list is empty");
     auto ptr = head_;
 
     while(ptr){
         if(!comparator(ptr -> arr_[ptr -> count_ - 1].key_, key))
-            return ptr->search(key);
+            return ptr -> search(key);
         ptr = ptr -> next_;
     }
 }
 
-auto unrolledlist::print() -> void{
+auto unrolledlist::print(std::ofstream& fout) -> void{
     auto ptr = head_;
     while(ptr -> next_ != nullptr){
-        ptr -> print();
-        std::cout << " --> " << std::endl;
+        ptr -> print(fout);
+        fout << " --> " << std::endl;
         ptr = ptr -> next_;
     }
-    ptr -> print();
-    std::cout << std::endl;
+    ptr -> print(fout);
+    fout << std::endl;
 }
 
-auto unrolledlist::findmin() -> int{
+auto unrolledlist::findmin() -> std::pair<int, int>{
     if(!count_)
         throw std::logic_error("Unrolled linked list is empty");
 
-    std::cout << "Minimum key: " << head_ -> arr_[0].key_ << ", data for this key: " << head_ -> arr_[0].data_ << std::endl;
-    return head_ -> arr_[0].key_;
+    return std::make_pair(head_ -> arr_[0].key_, head_ -> arr_[0].data_);
 }
 
-auto unrolledlist::findmax() -> int{
+auto unrolledlist::findmax() -> std::pair<int, int>{
     if(!count_)
         throw std::logic_error("Unrolled linked list is empty");
 
-    std::cout << "Maximum key: " << tail_ -> arr_[tail_ -> count_ - 1].key_ << ", data for this key: " << tail_ -> arr_[tail_ -> count_ - 1].data_ << std::endl;
-    return tail_ -> arr_[tail_ -> count_ - 1].key_;
+    return std::make_pair(tail_ -> arr_[count_ - 1].key_, tail_ -> arr_[count_ - 1].data_);
 }
 
 auto unrolledlist::count() -> size_t{
-    std::cout << count_ << std::endl;
     return count_;
 }

@@ -9,10 +9,10 @@ public:
     ~unrolledlist();
     auto insert(int key, int data) -> void;
     auto remove(int key) -> void;
-    auto search(int key) -> int;
-    auto print() -> void;
-    auto findmin() -> int;
-    auto findmax() -> int;
+    auto search(int key) -> std::pair<int, int>;
+    auto print(std::ofstream& fout) -> void;
+    auto findmin() -> std::pair<int, int>;
+    auto findmax() -> std::pair<int, int>;
 
     auto count() -> size_t;
 

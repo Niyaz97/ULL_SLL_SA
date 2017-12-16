@@ -14,11 +14,13 @@ SCENARIO("search an element in sorted array")
 
         WHEN("search for the element")
         {
-            size_t key_idx = sa.binarysearch(30);
+            int key = sa.search(3).first;
+            int data = sa.search(3).second;
 
-            THEN("return index of found element")
+            THEN("return found element")
             {
-                REQUIRE(key_idx == 3);
+                REQUIRE(key == 3);
+                REQUIRE(data == 823);
             }
         }
     }
@@ -34,7 +36,7 @@ SCENARIO("search an element in empty sorted array")
         {
             THEN("an exception must be thrown")
             {
-                REQUIRE_THROWS_AS(sa.binarysearch(21), std::logic_error);
+                REQUIRE_THROWS_AS(sa.search(21), std::logic_error);
             }
         }
     }

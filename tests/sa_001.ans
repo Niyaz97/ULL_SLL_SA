@@ -1,6 +1,3 @@
-Insert 150 keys and data
-Sorted Array: 424980ns
-Sorted Array average time: 275956ns
 [ (-98, -30)
 (-98, -30) 
 (-98, -30) 
@@ -152,3 +149,5 @@ Sorted Array average time: 275956ns
 (100, -4) 
 (100, -4) 
 ]
+
+Result time: 415791ns

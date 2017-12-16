@@ -4,6 +4,7 @@
 #include <iostream>
 #include <functional>
 #include <memory>
+#include <fstream>
 
 class array{
 public:
@@ -12,8 +13,8 @@ public:
 
     auto insert(int key, int data, std::function<bool(const int&, const int&)> comparator) -> void;
     auto remove(int key) -> bool;
-    auto search(int key) -> int;
-    auto print() -> void;
+    auto search(int key) -> std::pair<int, int>;
+    auto print(std::ofstream& fout) -> void;
 
     auto insert_idx(int key, std::function<bool(const int&, const int&)> comparator) -> size_t;
     auto idx(int key, size_t index, std::function<bool(const int&, const int&)> comparator) -> size_t;

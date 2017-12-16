@@ -14,32 +14,17 @@ SCENARIO("find min in sorted linked list")
 
         WHEN("search min")
         {
-            int min = s.findmin();
+            int key = s.findmin().first;
+            int data = s.findmin().second;
 
             THEN("return min")
             {
-                REQUIRE(min == -1);
+                REQUIRE(key == -1);
+                REQUIRE(data == -92);
             }
         }
     }
 }
-
-//SCENARIO("find min element in empty sorted linked list")
-//{
-//    GIVEN("empty sorted linked list")
-//    {
-//        sortedlist s;
-//
-//        WHEN("trying to find min")
-//        {
-//            THEN("an exception must be thrown")
-//            {
-//                REQUIRE_THROWS_AS(s.findmin, std::logic_error);
-//            }
-//        }
-//    }
-//}
-
 
 SCENARIO("find max in sorted linked list")
 {
@@ -53,11 +38,13 @@ SCENARIO("find max in sorted linked list")
 
         WHEN("search max")
         {
-            int max = s.findmax();
+            int key = s.findmax().first;
+            int data = s.findmax().second;
 
-            THEN("return min")
+            THEN("return max")
             {
-                REQUIRE(max == 930);
+                REQUIRE(key == 930);
+                REQUIRE(data == 36);
             }
         }
     }

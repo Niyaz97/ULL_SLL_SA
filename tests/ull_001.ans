@@ -1,6 +1,3 @@
-Insert 150 keys and data
-Unrolled Linked List: 575927ns
-Unrolled Linked List average time: 731647ns
 [ (-98, -30); (-98, -30) ] -->
 [ (-98, -30); (-95, 58); (-95, 2) ] --> 
 [ (-93, 2); (-84, -59); (-81, 89) ] --> 
@@ -43,3 +40,5 @@ Unrolled Linked List average time: 731647ns
 [ (82, -87) ] --> 
 [ (84, -48); (97, 7); (99, 15) ] --> 
 [ (99, 15); (99, 15); (100, -4) ]
+
+Result time: 575927ns

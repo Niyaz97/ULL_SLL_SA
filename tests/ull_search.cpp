@@ -14,11 +14,13 @@ SCENARIO("search an element in unrolled list")
 
         WHEN("search for the element")
         {
-            int key = ull.search(30);
+            int key = ull.search(30).first;
+            int data = ull.search(30).second;
 
             THEN("return found element")
             {
                 REQUIRE(key == 30);
+                REQUIRE(data == 8);
             }
         }
     }

@@ -1,6 +1,3 @@
-Insert 150 keys and data
-Sorted Linked List: 134054ns
-Sorted Linked List average time: 144327ns
 (-98, -30) -->
 (-98, -30) --> 
 (-98, -30) --> 
@@ -151,3 +148,5 @@ Sorted Linked List average time: 144327ns
 (99, 15) --> 
 (100, -4) --> 
 (100, -4)
+
+Result time: 173487ns

@@ -1,7 +1,7 @@
 #ifndef ULL_SLL_SA_SORTEDLINKEDLIST_HPP
 #define ULL_SLL_SA_SORTEDLINKEDLIST_HPP
 #include <iostream>
-
+#include <fstream>
 
 class sortedlist{
 public:
@@ -9,10 +9,10 @@ public:
     ~sortedlist();
     auto insert(int key, int data) -> void;
     auto remove(int key) -> void;
-    auto print() -> void;
-    auto search(int key) -> int;
-    auto findmin() -> int;
-    auto findmax() -> int;
+    auto print(std::ofstream& fout) -> void;
+    auto search(int key) -> std::pair<int, int>;
+    auto findmin() -> std::pair<int, int>;
+    auto findmax() -> std::pair<int, int>;
 
     auto count() -> size_t;
 

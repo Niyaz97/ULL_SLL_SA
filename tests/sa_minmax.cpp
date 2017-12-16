@@ -14,11 +14,13 @@ SCENARIO("find min in sorted array")
 
         WHEN("search min")
         {
-            int min = sa.findmin();
+            int key = sa.findmin().first;
+            int data = sa.findmin().second;
 
             THEN("return min")
             {
-                REQUIRE(min == -24);
+                REQUIRE(key == -24);
+                REQUIRE(data == -92);
             }
         }
     }
@@ -36,11 +38,13 @@ SCENARIO("find max in sorted array")
 
         WHEN("search max")
         {
-            int max = sa.findmax();
+            int key = sa.findmax().first;
+            int data = sa.findmax().second;
 
-            THEN("return min")
+            THEN("return max")
             {
-                REQUIRE(max == 649);
+                REQUIRE(key == 649);
+                REQUIRE(data == 36);
             }
         }
     }

@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include <functional>
-
+#include <fstream>
 
 class sortedarray{
 public:
@@ -13,10 +13,11 @@ public:
 
     auto insert(int key, int data) -> void;
     auto remove(int key) -> void;
-    auto print() -> void;
+    auto print(std::ofstream& fout) -> void;
+    auto search(int key) -> std::pair<int, int>;
     auto binarysearch(int key) -> size_t ;
-    auto findmin() -> int;
-    auto findmax() -> int;
+    auto findmin() -> std::pair<int, int>;
+    auto findmax() -> std::pair<int, int>;
     
     auto insert_idx(int key) -> size_t;
     auto idx(int key,  size_t index) -> size_t;

@@ -15,11 +15,13 @@ SCENARIO("find min in unrolled list")
 
         WHEN("search min")
         {
-            int min = ull.findmin();
+            int key = ull.findmin().first;
+            int data = ull.findmin().second;
 
             THEN("return min")
             {
-                REQUIRE(min == -49);
+                REQUIRE(key == -49);
+                REQUIRE(data == 36);
             }
         }
     }
@@ -33,15 +35,16 @@ SCENARIO("find max in unrolled list")
         ull.insert(3,823);
         ull.insert(-24,-92);
         ull.insert(30,8);
-        ull.insert(649,36);
 
         WHEN("search max")
         {
-            int max = ull.findmax();
+            int key = ull.findmax().first;
+            int data = ull.findmax().second;
 
-            THEN("return min")
+            THEN("return max")
             {
-                REQUIRE(max == 649);
+                REQUIRE(key == 30);
+                REQUIRE(data == 8);
             }
         }
     }

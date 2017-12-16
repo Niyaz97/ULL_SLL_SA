@@ -90,16 +90,16 @@ auto sortedlist::remove(int key) -> void{
     }
 }
 
-auto sortedlist::print() -> void{
+auto sortedlist::print(std::ofstream& fout) -> void{
     node* n = head_;
     while(n != tail_){
-        std::cout << "(" << n -> address_ << ", " << n -> data_<< ") --> " << std:: endl;
+        fout << "(" << n -> address_ << ", " << n -> data_<< ") --> " << std:: endl;
         n = n -> next_;
     }
-    std::cout << "(" << n -> address_ << ", " << n -> data_<< ")" << std::endl;
+    fout << "(" << n -> address_ << ", " << n -> data_<< ")" << std::endl;
 }
 
-auto sortedlist::search(int key) -> int{
+auto sortedlist::search(int key) -> std::pair<int, int>{
     if(count_ == 0)
         throw std::logic_error("Sorted linked list is empty");
     node* n = head_;
@@ -108,24 +108,21 @@ auto sortedlist::search(int key) -> int{
         if(!n)
             throw std::logic_error("Key wasn't found");
     }
-//    std::cout << "Searched key: "<< n -> address_ << ", data for this key: " << n -> data_<< std::endl;
-    return n -> address_;
+    return std::make_pair(n -> address_, n -> data_);
 };
 
-auto sortedlist::findmin() -> int{
+auto sortedlist::findmin() -> std::pair<int, int>{
     if(count_ == 0)
         throw std::logic_error("Sorted linked list is empty");
     node* n = head_;
-    std::cout << "Minimum key: " << n -> address_ << ", data for this key: " << n -> data_<< std::endl;
-    return n -> address_;
+    return std::make_pair(n -> address_, n -> data_);
 }
 
-auto sortedlist::findmax() -> int{
+auto sortedlist::findmax() -> std::pair<int, int>{
     if(count_ == 0)
         throw std::logic_error("Sorted linked list is empty");
     node* n = tail_;
-    std::cout << "Maximum key: " << n -> address_ << ", data for this key: " << n -> data_<< std::endl;
-    return n -> address_;
+    return std::make_pair(n -> address_, n -> data_);
 }
 
 auto sortedlist::count() -> size_t{

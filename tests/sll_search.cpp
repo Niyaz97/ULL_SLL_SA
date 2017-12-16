@@ -14,11 +14,13 @@ SCENARIO("search an element in sorted linked list")
 
         WHEN("search for the element")
         {
-            int key = s.search(30);;
+            int key = s.search(30).first;
+            int data = s.search(30).second;
 
             THEN("return found element")
             {
                 REQUIRE(key == 30);
+                REQUIRE(data == 8);
             }
         }
     }

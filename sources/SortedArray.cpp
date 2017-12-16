@@ -48,16 +48,20 @@ auto sortedarray::remove(int key) -> void{
         arr_[index].data_ = arr_[index + 1].data_;
     }
     count_--;
-//    std::cout << "Key "<< arr_[index].key_ << " and data "<< arr_[index].data_ <<" deleted" << std::endl;
 }
 
-auto sortedarray::print() -> void{
-    std::cout << "[ ";
+auto sortedarray::print(std::ofstream& fout) -> void{
+    fout << "[ ";
     for(size_t i = 0; i < count_; i++){
-        std::cout<< "(" << arr_[i].key_ << ", ";
-        std::cout << arr_[i].data_ << ") " << std::endl;
+        fout << "(" << arr_[i].key_ << ", ";
+        fout << arr_[i].data_ << ") " << std::endl;
     }
-    std::cout << "]" << std::endl;
+    fout << "]" << std::endl;
+}
+
+auto sortedarray::search(int key) -> std::pair<int, int>{
+    size_t search_idx = binarysearch(key);
+    return std::make_pair(arr_[search_idx].key_, arr_[search_idx].data_);
 }
 
 auto sortedarray::binarysearch(int key) -> size_t {
@@ -72,7 +76,6 @@ auto sortedarray::binarysearch(int key) -> size_t {
     while(left < right){
         size_t mid = (right + left) / 2;
         if(arr_[mid].key_ == key) {
-//            std::cout << "Searched key: " << arr_[mid].key_ << ", data for this key: "<< arr_[mid].data_ <<std::endl;
             return mid;
         }
         if(comparator(key, arr_[mid].key_))
@@ -82,7 +85,6 @@ auto sortedarray::binarysearch(int key) -> size_t {
     }
 
     if(arr_[right].key_ == key) {
-//        std::cout << "Searched key: " << arr_[right].key_ << ", data for this key: "<< arr_[right].data_ <<std::endl;
         return right;
     }
     else
@@ -90,19 +92,19 @@ auto sortedarray::binarysearch(int key) -> size_t {
 
 }
 
-auto sortedarray::findmin() -> int{
+auto sortedarray::findmin() -> std::pair<int, int>{
     if(count_ == 0)
         throw std::logic_error("Sorted array is empty");
-    std::cout << "Minimum key: " << arr_[0].key_ << ", data for this key: " << arr_[0].data_ << std::endl;
-    return arr_[0].key_;
+
+    return std::make_pair(arr_[0].key_, arr_[0].data_);
 }
 
 
-auto sortedarray::findmax() -> int{
+auto sortedarray::findmax() -> std::pair<int, int>{
     if(count_ == 0)
         throw std::logic_error("Sorted array is empty");
-    std::cout << "Maximum key: " << arr_[count_-1].key_ << ", data for this key: " << arr_[count_-1].data_ << std::endl;
-    return arr_[count_-1].key_;
+
+    return std::make_pair(arr_[count_ - 1].key_, arr_[count_ - 1].data_);
 }
 
 auto sortedarray::insert_idx(int key) -> size_t{

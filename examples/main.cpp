@@ -7,7 +7,7 @@
 
 typedef std::chrono::high_resolution_clock::time_point ExecTime;
 
-#define duration(a) std::chrono::duration_cast<std::chrono::nanoseconds>(a).count()
+#define duration(a) std::chrono::duration_cast<std::chrono::microseconds>(a).count()
 #define timeNow() std::chrono::high_resolution_clock::now()
 
 int main(int argc, char* argv[]) {
@@ -144,7 +144,7 @@ int main(int argc, char* argv[]) {
             }
             ExecTime end = timeNow();
             result_time = duration(end-start);
-            fout << std::endl << "Result time: " << result_time << "ns\n";
+            fout << std::endl << "Result time: " << result_time << "µs\n";
             fin.close();
             fout.close();
 

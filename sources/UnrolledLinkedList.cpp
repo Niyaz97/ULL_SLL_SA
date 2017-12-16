@@ -139,7 +139,7 @@ auto unrolledlist::findmax() -> std::pair<int, int>{
     if(!count_)
         throw std::logic_error("Unrolled linked list is empty");
 
-    return std::make_pair(tail_ -> arr_[count_ - 1].key_, tail_ -> arr_[count_ - 1].data_);
+    return std::make_pair(tail_ -> arr_[size_ - 1].key_, tail_ -> arr_[size_ - 1].data_);
 }
 
 auto unrolledlist::count() -> size_t{

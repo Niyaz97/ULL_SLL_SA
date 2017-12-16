@@ -24,15 +24,16 @@ int main(int argc, char* argv[]) {
             }
 
             std::ofstream fout(argv[2]);
-            auto add_time = 0, del_time = 0, search_time = 0, min_time = 0, max_time = 0;
+
             auto result_time = 0;
             int ds_type = 0;
 
             sortedarray sa;
             sortedlist sll;
             unrolledlist ull;
-
+            ExecTime start = timeNow();
             while(!fin.eof()){
+                auto add_time = 0, del_time = 0, search_time = 0, min_time = 0, max_time = 0;
                 std::getline(fin, command);
 
                 if(command == "sortedarray")
@@ -54,7 +55,6 @@ int main(int argc, char* argv[]) {
                             else data += command[i];
                         }
                         if (!key.empty() && !data.empty()) {
-                            ExecTime t1 = timeNow();
                             if(ds_type == 1)
                                 sa.insert(atoi(key.c_str()), atoi(data.c_str()));
 
@@ -63,8 +63,6 @@ int main(int argc, char* argv[]) {
 
                             if(ds_type == 3)
                                 ull.insert(atoi(key.c_str()), atoi(data.c_str()));
-
-                            add_time = duration(timeNow() - t1);
                         }
                         else
                             throw std::logic_error("Error while adding (too few arguments)");
@@ -77,7 +75,6 @@ int main(int argc, char* argv[]) {
                         for (int i = 7; i < command.length(); i++) {
                             key += command[i];
                         }
-                        ExecTime t2 = timeNow();
                         if(ds_type == 1)
                             sa.remove(atoi(key.c_str()));
 
@@ -86,8 +83,6 @@ int main(int argc, char* argv[]) {
 
                         if(ds_type == 3)
                             ull.remove(atoi(key.c_str()));
-
-                        del_time = duration(timeNow() - t2);
                     } else
                         throw std::logic_error("Error while deleting");
                 }
@@ -110,7 +105,6 @@ int main(int argc, char* argv[]) {
                         }
                         int search_key = atoi(key.c_str());
 
-                        ExecTime t3 = timeNow();
                         if(ds_type == 1)
                             fout<< "(" << sa.search(search_key).first << ", " << sa.search(search_key).second << ")\n";
 
@@ -119,14 +113,11 @@ int main(int argc, char* argv[]) {
 
                         if(ds_type == 3)
                             fout<< "(" << ull.search(search_key).first << ", " << ull.search(search_key).second << ")\n";
-
-                        search_time = duration(timeNow() - t3);
                     } else
                         throw std::logic_error("Error while searching");
                 }
 
                 if (command.find("min") != std::string::npos) {
-                    ExecTime t4 = timeNow();
                     if(ds_type == 1)
                         fout << "(" << sa.findmin().first << ", " << sa.findmin().second << ")\n";
 
@@ -135,11 +126,8 @@ int main(int argc, char* argv[]) {
 
                     if(ds_type == 3)
                         fout << "(" << ull.findmin().first << ", " << ull.findmin().second << ")\n";
-
-                    auto min_time = duration(timeNow() - t4);
                 }
                 if (command.find("max") != std::string::npos) {
-                    ExecTime t5 = timeNow();
                     if(ds_type == 1)
                         fout << "(" << sa.findmax().first  << ", " << sa.findmax().second << ")\n";
 
@@ -148,22 +136,17 @@ int main(int argc, char* argv[]) {
 
                     if(ds_type == 3)
                         fout << "(" << ull.findmax().first  << ", " << ull.findmax().second << ")\n";
-
-                    max_time = duration(timeNow() - t5);
                 }
 
                 if (!key.empty()) key.clear();
                 if (!data.empty()) data.clear();
                 flag = true;
-                result_time += search_time;
             }
-
+            ExecTime end = timeNow();
+            result_time = duration(end-start);
             fout << std::endl << "Result time: " << result_time << "ns\n";
             fin.close();
             fout.close();
-
-
-
 
         }  catch (std::logic_error& e) {
                 std::cout << e.what() << std::endl;

@@ -4,7 +4,7 @@
 unrolledlist::unrolledlist(): head_(nullptr), tail_(nullptr), count_(0){
     std::function<bool(const int&, const int&)> compare = std::less<int>();
     comparator = compare;
-    size_ = 3;
+    size_ = 6;
 }
 
 unrolledlist::~unrolledlist() = default;
@@ -139,7 +139,7 @@ auto unrolledlist::findmax() -> std::pair<int, int>{
     if(!count_)
         throw std::logic_error("Unrolled linked list is empty");
 
-    return std::make_pair(tail_ -> arr_[size_ - 1].key_, tail_ -> arr_[size_ - 1].data_);
+    return std::make_pair(tail_ -> arr_[count_ - 1].key_, tail_ -> arr_[count_ - 1].data_);
 }
 
 auto unrolledlist::count() -> size_t{

@@ -1,6 +1,6 @@
 #include "Node.hpp"
 
-array::array(size_t capacity = 4) : prev_(nullptr), next_(nullptr), count_(0), capacity_(capacity){
+array::array(size_t capacity = 6) : prev_(nullptr), next_(nullptr), count_(0), capacity_(capacity){
     arr_ = new node[capacity];
     std::function<bool(const int&, const int&)> compare = std::less<int>();
     comparator = compare;

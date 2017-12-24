@@ -71,8 +71,7 @@ auto sortedarray::binarysearch(int key) -> size_t {
 
     if(right == count)
         left = 0;
-    if(right > count_)
-        right = count_ - 1;
+
     while(left < right){
         size_t mid = (right + left) / 2;
         if(arr_[mid].key_ == key) {
@@ -114,12 +113,12 @@ auto sortedarray::insert_idx(int key) -> size_t{
         return 0;
     size_t mult = 2;
 
-    auto right = idx(key, mult);
-    auto left = right/mult;
-    if(!right == mult)
+    size_t right = idx(key, mult);
+    size_t left = right/mult;
+    if(right != mult)
         left = 0;
     while(right - left > 1){
-        auto mid = (right+left)/2;
+        size_t mid = (right+left)/2;
         if(arr_[mid].key_ == key)
             return mid;
         if(!comparator(arr_[mid].key_, key))

@@ -270,7 +270,6 @@ delete 48
 delete -7
 delete -39
 delete -81
-delete 82
 delete -8
 delete -75
 delete -15
@@ -285,13 +284,10 @@ max
 max
 min
 delete -29
-delete 67
 delete -70
 delete -45
 delete -25
-delete 54
 delete -43
-delete 99
 delete -17
 delete 25
 delete 61

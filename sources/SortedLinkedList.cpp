@@ -15,11 +15,9 @@ sortedlist::~sortedlist(){
 auto sortedlist::insert(int key, int data) -> void{
     node* n = new node;
     n -> address_ = key;
-    n -> data_= data;
+    n -> data_ = data;
 
     if (head_ == nullptr){
-        n -> address_ = key;
-        n -> data_= data;
         head_ = n;
         tail_ = head_;
         n -> next_ = nullptr;

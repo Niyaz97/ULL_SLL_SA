@@ -32,7 +32,7 @@ auto unrolledlist::insert(int key, int data) -> void{
             if(ptr -> comparator(key, ptr -> arr_[0].key_)){
                 if(ptr -> prev_){
                     if(!(ptr -> prev_ -> full())){
-                        ptr -> prev_-> insert(key, data, comparator);
+                        ptr -> prev_ -> insert(key, data, comparator);
                         ++count_;
                         return;
                     }
@@ -81,12 +81,10 @@ auto unrolledlist::insert(int key, int data) -> void{
     tail_ = new_ptr;
 
     new_ptr -> prev_ = ptr;
-    new_ptr -> next_;
     ptr -> next_ = new_ptr;
 
     new_ptr -> insert(key, data, comparator);
     ++count_;
-
 }
 
 auto unrolledlist::remove(int key) -> void{
@@ -95,7 +93,7 @@ auto unrolledlist::remove(int key) -> void{
 
     auto ptr = head_;
     while(ptr){
-        if(!ptr->comparator(ptr->arr_[ptr -> count_ - 1].key_, key)){
+        if(!ptr->comparator(ptr -> arr_[ptr -> count_ - 1].key_, key)){
             if(ptr -> remove(key)){
                 --count_;
                 return;

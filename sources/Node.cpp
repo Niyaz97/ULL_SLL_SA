@@ -43,10 +43,10 @@ auto array::remove(int key) -> bool{
             }
             --count_;
             if(!count_){
-                if(this->prev_)
-                    this->prev_->next_ = this->next_;
-                if(this->next_)
-                    this->next_->prev_ = this->prev_;
+                if(this -> prev_)
+                    this -> prev_ -> next_ = this -> next_;
+                if(this -> next_)
+                    this -> next_ -> prev_ = this -> prev_;
             }
             return true;
         }
@@ -81,13 +81,13 @@ auto array::insert_idx(int key, std::function<bool(const int &, const int &)> co
         return 0;
     size_t index = 2;
 
-    auto right = idx(key, index, comparator);
-    auto left = right/index;
+    size_t right = idx(key, index, comparator);
+    size_t left = right/index;
 
-    if(!right == index)
+    if(right != index)
         left = 0;
     while(right - left > 1){
-        auto mid = (right+left)/2;
+        size_t mid = (right+left)/2;
         if(arr_[mid].key_ == key)
             return mid;
         if(!comparator(arr_[mid].key_, key))

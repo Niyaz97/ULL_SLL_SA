@@ -1,4 +1,4 @@
-sortedarray
+unrolledlinkedlist
 add 41 -1
 add -68 -28
 add -73 -37
@@ -1180,6023 +1180,6022 @@ add 99 15
 add -17 17
 add 25 -91
 add 61 68
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -21 9
+add -80 22
+add 42 50
+add 34 70
+add 52 -50
+add 84 -48
+add 45 -6
+add 97 7
+add -38 27
+add 74 56
+add -84 -59
+add -49 -46
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -21 9
+add -80 22
+add 42 50
+add 34 70
+add 52 -50
+add 84 -48
+add 45 -6
+add 97 7
+add -38 27
+add 74 56
+add -84 -59
+add -49 -46
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -21 9
+add -80 22
+add 42 50
+add 34 70
+add 52 -50
+add 84 -48
+add 45 -6
+add 97 7
+add -38 27
+add 74 56
+add -84 -59
+add -49 -46
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -21 9
+add -80 22
+add 42 50
+add 34 70
+add 52 -50
+add 84 -48
+add 45 -6
+add 97 7
+add -38 27
+add 74 56
+add -84 -59
+add -49 -46
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -21 9
+add -80 22
+add 42 50
+add 34 70
+add 52 -50
+add 84 -48
+add 45 -6
+add 97 7
+add -38 27
+add 74 56
+add -84 -59
+add -49 -46
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -21 9
+add -80 22
+add 42 50
+add 34 70
+add 52 -50
+add 84 -48
+add 45 -6
+add 97 7
+add -38 27
+add 74 56
+add -84 -59
+add -49 -46
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -21 9
+add -80 22
+add 42 50
+add 34 70
+add 52 -50
+add 84 -48
+add 45 -6
+add 97 7
+add -38 27
+add 74 56
+add -84 -59
+add -49 -46
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -21 9
+add -80 22
+add 42 50
+add 34 70
+add 52 -50
+add 84 -48
+add 45 -6
+add 97 7
+add -38 27
+add 74 56
+add -84 -59
+add -49 -46
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -21 9
+add -80 22
+add 42 50
+add 34 70
+add 52 -50
+add 84 -48
+add 45 -6
+add 97 7
+add -38 27
+add 74 56
+add -84 -59
+add -49 -46
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -21 9
+add -80 22
+add 42 50
+add 34 70
+add 52 -50
+add 84 -48
+add 45 -6
+add 97 7
+add -38 27
+add 74 56
+add -84 -59
+add -49 -46
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -21 9
+add -80 22
+add 42 50
+add 34 70
+add 52 -50
+add 84 -48
+add 45 -6
+add 97 7
+add -38 27
+add 74 56
+add -84 -59
+add -49 -46
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -21 9
+add -80 22
+add 42 50
+add 34 70
+add 52 -50
+add 84 -48
+add 45 -6
+add 97 7
+add -38 27
+add 74 56
+add -84 -59
+add -49 -46
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -21 9
+add -80 22
+add 42 50
+add 34 70
+add 52 -50
+add 84 -48
+add 45 -6
+add 97 7
+add -38 27
+add 74 56
+add -84 -59
+add -49 -46
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -21 9
+add -80 22
+add 42 50
+add 34 70
+add 52 -50
+add 84 -48
+add 45 -6
+add 97 7
+add -38 27
+add 74 56
+add -84 -59
+add -49 -46
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -21 9
+add -80 22
+add 42 50
+add 34 70
+add 52 -50
+add 84 -48
+add 45 -6
+add 97 7
+add -38 27
+add 74 56
+add -84 -59
+add -49 -46
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -21 9
+add -80 22
+add 42 50
+add 34 70
+add 52 -50
+add 84 -48
+add 45 -6
+add 97 7
+add -38 27
+add 74 56
+add -84 -59
+add -49 -46
+add 41 -1
+add -68 -28
+add -73 -37
+add -60 65
+add -26 -51
+add -74 -42
+add -52 -13
+add 75 78
+add -93 2
+add 6 -54
+add -35 -55
+add -57 -82
+add -36 -63
+add -95 58
+add 66 -24
+add -65 46
+add -34 73
+add 44 -53
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+add 100 -4
+add 49 26
+add -22 4
+add -5 3
+add 51 10
+add 19 31
+add 0 18
+add 48 76
+add -7 36
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -39 88
+add -81 89
+add 69 -62
+add 82 -87
+add -8 -58
+add -75 55
+add -15 80
+add -29 24
+add 67 81
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add -70 -18
+add -45 92
+add -25 -71
+add 54 13
+add -43 98
+add 99 15
+add -17 17
+add 25 -91
+add 61 68
+add 47 28
+add -38 5
+add -11 72
+add 16 96
+add 64 39
+add 32 77
+add -14 59
+add 11 -88
+add -98 -30
+add -79 -66
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
 search 61
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -21 9
-add -80 22
-add 42 50
-add 34 70
-add 52 -50
-add 84 -48
-add 45 -6
-add 97 7
-add -38 27
-add 74 56
-add -84 -59
-add -49 -46
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -21 9
-add -80 22
-add 42 50
-add 34 70
-add 52 -50
-add 84 -48
-add 45 -6
-add 97 7
-add -38 27
-add 74 56
-add -84 -59
-add -49 -46
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -21 9
-add -80 22
-add 42 50
-add 34 70
-add 52 -50
-add 84 -48
-add 45 -6
-add 97 7
-add -38 27
-add 74 56
-add -84 -59
-add -49 -46
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -21 9
-add -80 22
-add 42 50
-add 34 70
-add 52 -50
-add 84 -48
-add 45 -6
-add 97 7
-add -38 27
-add 74 56
-add -84 -59
-add -49 -46
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -21 9
-add -80 22
-add 42 50
-add 34 70
-add 52 -50
-add 84 -48
-add 45 -6
-add 97 7
-add -38 27
-add 74 56
-add -84 -59
-add -49 -46
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -21 9
-add -80 22
-add 42 50
-add 34 70
-add 52 -50
-add 84 -48
-add 45 -6
-add 97 7
-add -38 27
-add 74 56
-add -84 -59
-add -49 -46
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -21 9
-add -80 22
-add 42 50
-add 34 70
-add 52 -50
-add 84 -48
-add 45 -6
-add 97 7
-add -38 27
-add 74 56
-add -84 -59
-add -49 -46
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -21 9
-add -80 22
-add 42 50
-add 34 70
-add 52 -50
-add 84 -48
-add 45 -6
-add 97 7
-add -38 27
-add 74 56
-add -84 -59
-add -49 -46
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -21 9
-add -80 22
-add 42 50
-add 34 70
-add 52 -50
-add 84 -48
-add 45 -6
-add 97 7
-add -38 27
-add 74 56
-add -84 -59
-add -49 -46
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -21 9
-add -80 22
-add 42 50
-add 34 70
-add 52 -50
-add 84 -48
-add 45 -6
-add 97 7
-add -38 27
-add 74 56
-add -84 -59
-add -49 -46
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -21 9
-add -80 22
-add 42 50
-add 34 70
-add 52 -50
-add 84 -48
-add 45 -6
-add 97 7
-add -38 27
-add 74 56
-add -84 -59
-add -49 -46
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -21 9
-add -80 22
-add 42 50
-add 34 70
-add 52 -50
-add 84 -48
-add 45 -6
-add 97 7
-add -38 27
-add 74 56
-add -84 -59
-add -49 -46
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -21 9
-add -80 22
-add 42 50
-add 34 70
-add 52 -50
-add 84 -48
-add 45 -6
-add 97 7
-add -38 27
-add 74 56
-add -84 -59
-add -49 -46
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -21 9
-add -80 22
-add 42 50
-add 34 70
-add 52 -50
-add 84 -48
-add 45 -6
-add 97 7
-add -38 27
-add 74 56
-add -84 -59
-add -49 -46
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -21 9
-add -80 22
-add 42 50
-add 34 70
-add 52 -50
-add 84 -48
-add 45 -6
-add 97 7
-add -38 27
-add 74 56
-add -84 -59
-add -49 -46
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -21 9
-add -80 22
-add 42 50
-add 34 70
-add 52 -50
-add 84 -48
-add 45 -6
-add 97 7
-add -38 27
-add 74 56
-add -84 -59
-add -49 -46
-add 41 -1
-add -68 -28
-add -73 -37
-add -60 65
-add -26 -51
-add -74 -42
-add -52 -13
-add 75 78
-add -93 2
-add 6 -54
-add -35 -55
-add -57 -82
-add -36 -63
-add -95 58
-add 66 -24
-add -65 46
-add -34 73
-add 44 -53
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-add 100 -4
-add 49 26
-add -22 4
-add -5 3
-add 51 10
-add 19 31
-add 0 18
-add 48 76
-add -7 36
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -39 88
-add -81 89
-add 69 -62
-add 82 -87
-add -8 -58
-add -75 55
-add -15 80
-add -29 24
-add 67 81
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add -70 -18
-add -45 92
-add -25 -71
-add 54 13
-add -43 98
-add 99 15
-add -17 17
-add 25 -91
-add 61 68
-add 47 28
-add -38 5
-add -11 72
-add 16 96
-add 64 39
-add 32 77
-add -14 59
-add 11 -88
-add -98 -30
-add -79 -66
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -21
-delete -80
-delete 42
-delete 34
-delete 52
-delete 84
-delete 45
-delete 97
-delete -38
-delete 74
-delete -84
-delete -49
-delete 41
-delete -68
-delete -73
-delete -60
-delete -26
-delete -74
-delete -52
-delete 75
-delete -93
-delete 6
-delete -35
-delete -57
-delete -36
-delete -95
-delete 66
-delete -65
-delete -34
-delete 44
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
-delete 100
-delete 49
-delete -22
-delete -5
-delete 51
-delete 19
-delete 0
-delete 48
-delete -7
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -39
-delete -81
-delete 69
-delete 82
-delete -8
-delete -75
-delete -15
-delete -29
-delete 67
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete -70
-delete -45
-delete -25
-delete 54
-delete -43
-delete 99
-delete -17
-delete 25
-delete 61
-delete 47
-delete -38
-delete -11
-delete 16
-delete 64
-delete 32
-delete -14
-delete 11
-delete -98
-delete -79
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -21
+search -80
+search 42
+search 34
+search 52
+search 84
+search 45
+search 97
+search -38
+search 74
+search -84
+search -49
+search 41
+search -68
+search -73
+search -60
+search -26
+search -74
+search -52
+search 75
+search -93
+search 6
+search -35
+search -57
+search -36
+search -95
+search 66
+search -65
+search -34
+search 44
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79
+search 100
+search 49
+search -22
+search -5
+search 51
+search 19
+search 0
+search 48
+search -7
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -39
+search -81
+search 69
+search 82
+search -8
+search -75
+search -15
+search -29
+search 67
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search -70
+search -45
+search -25
+search 54
+search -43
+search 99
+search -17
+search 25
+search 61
+search 47
+search -38
+search -11
+search 16
+search 64
+search 32
+search -14
+search 11
+search -98
+search -79

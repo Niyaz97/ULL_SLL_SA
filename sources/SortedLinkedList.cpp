@@ -98,6 +98,7 @@ auto sortedlist::print(std::ofstream& fout) -> void{
 }
 
 auto sortedlist::search(int key) -> std::pair<int, int>{
+//auto sortedlist::search(int key) ->int{
     if(count_ == 0)
         throw std::logic_error("Sorted linked list is empty");
     node* n = head_;
@@ -107,6 +108,7 @@ auto sortedlist::search(int key) -> std::pair<int, int>{
             throw std::logic_error("Key wasn't found");
     }
     return std::make_pair(n -> address_, n -> data_);
+//    return n-> address_;
 };
 
 auto sortedlist::findmin() -> std::pair<int, int>{

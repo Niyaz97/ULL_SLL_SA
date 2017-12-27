@@ -1,9 +1,7 @@
 #include "Node.hpp"
 
-array::array(size_t capacity = 6) : prev_(nullptr), next_(nullptr), count_(0), capacity_(capacity){
+array::array(size_t capacity) : prev_(nullptr), next_(nullptr), count_(0), capacity_(capacity){
     arr_ = new node[capacity];
-    std::function<bool(const int&, const int&)> compare = std::less<int>();
-    comparator = compare;
 }
 
 array::~array() {
@@ -20,12 +18,12 @@ auto array::insert(int key, int data, std::function<bool(const int &, const int 
 
     size_t index = insert_idx(key, comparator);
 
-    for(size_t i = count_; i > index;){
-        arr_[i].key_ = arr_[--i].key_;
+    for(size_t i = count_; i > index; i--){
+        arr_[i].key_ = arr_[i - 1].key_;
     }
 
-    for(size_t i = count_; i > index;){
-        arr_[i].data_ = arr_[--i].data_;
+    for(size_t i = count_; i > index; i--){
+        arr_[i].data_ = arr_[i - 1].data_;
     }
 
     arr_[index].key_ = key;
@@ -84,13 +82,13 @@ auto array::insert_idx(int key, std::function<bool(const int &, const int &)> co
     size_t right = idx(key, index, comparator);
     size_t left = right/index;
 
-    if(right != index)
+    if(right == index)
         left = 0;
     while(right - left > 1){
         size_t mid = (right+left)/2;
         if(arr_[mid].key_ == key)
             return mid;
-        if(!comparator(arr_[mid].key_, key))
+        if(comparator(key, arr_[mid].key_))
             right = mid;
         else
             left = mid;

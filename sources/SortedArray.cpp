@@ -60,8 +60,10 @@ auto sortedarray::print(std::ofstream& fout) -> void{
 }
 
 auto sortedarray::search(int key) -> std::pair<int, int>{
+//auto sortedarray::search(int key) -> int{
     size_t search_idx = binarysearch(key);
     return std::make_pair(arr_[search_idx].key_, arr_[search_idx].data_);
+//    return arr_[search_idx].key_;
 }
 
 auto sortedarray::binarysearch(int key) -> size_t {

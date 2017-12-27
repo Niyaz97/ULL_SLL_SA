@@ -11,6 +11,7 @@ public:
     auto remove(int key) -> void;
     auto print(std::ofstream& fout) -> void;
     auto search(int key) -> std::pair<int, int>;
+//    auto search(int key) -> int;
     auto findmin() -> std::pair<int, int>;
     auto findmax() -> std::pair<int, int>;
 

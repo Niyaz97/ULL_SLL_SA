@@ -35,9 +35,6 @@ private:
 
     size_t count_;
     size_t capacity_;
-
-    std::function<bool(const int&, const int&)> comparator;
-
 };
 
 

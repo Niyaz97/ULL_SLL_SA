@@ -14,6 +14,8 @@ public:
     auto findmin() -> std::pair<int, int>;
     auto findmax() -> std::pair<int, int>;
 
+    auto rebuild() -> void;
+
     auto count() -> size_t;
 
 private:

@@ -4,7 +4,7 @@
 unrolledlist::unrolledlist(): head_(nullptr), tail_(nullptr), count_(0){
     std::function<bool(const int&, const int&)> compare = std::less<int>();
     comparator = compare;
-    size_ = 8;
+    size_ = 4;
 }
 
 unrolledlist::~unrolledlist() = default;
@@ -98,12 +98,48 @@ auto unrolledlist::remove(int key) -> void{
         if(!comparator(ptr -> arr_[ptr -> count_ - 1].key_, key)){
             if(ptr -> remove(key)){
                 --count_;
+//                rebuild();
                 return;
             }
         }
         ptr = ptr -> next_;
     }
 }
+//
+//auto unrolledlist::rebuild() -> void{
+//    auto ptr = head_ ;
+////    ptr -> resize();
+////    while(ptr){
+//    for(int i = 0; i < ptr -> capacity_; i++) {
+//        if (!ptr->full()) {
+////            size_t delta = ptr->capacity_ - ptr->count_;
+//            ptr->arr_[ptr -> count_ + 1].key_ = ptr->next_->arr_[i].key_;
+//            ptr->arr_[ptr -> count_ + 1].data_ = ptr->next_->arr_[i].data_;
+//            ++ptr -> count_;
+////            ptr -> next_ -> arr_[0].key_ =
+//            for(int j = i; j < ptr -> next_ -> count_ - 1; j++) {
+//                ptr -> next_ -> arr_[j].key_ = ptr -> next_ -> arr_[j + 1].key_;
+//                ptr -> next_ -> arr_[j].data_ = ptr -> next_ ->arr_[j + 1].data_;
+//                --ptr -> next_ -> count_;
+//            }
+//
+////            ptr = ptr -> next_;
+//            if(!ptr -> next_ ->count_){
+////                ptr = ptr -> next_;
+//                if(ptr -> prev_)
+//                    ptr -> prev_ -> next_ = ptr -> next_;
+//                if(ptr -> next_)
+//                    ptr -> next_ -> prev_ = ptr -> prev_;
+//            }
+////            remove(ptr->next_->arr_[i].key_);
+//
+////            ptr = ptr -> next_;
+//        }
+//
+//    }
+//    //        ptr = ptr -> next_;
+////    }
+//}
 
 auto unrolledlist::search(int key) -> std::pair<int, int>{
     if(head_ == nullptr)
